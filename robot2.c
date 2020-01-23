@@ -47,7 +47,7 @@ task main()
   while (bQueuedMsgAvailable())
   {
     word temp;
-    ClearMessage();   // We’re ready to process the next message
+    ClearMessage();   // Weâ€™re ready to process the next message
     temp = message;   // Obtain the next message
   }
  // nxtDisplayTextLine(3,"Received %d",message);
